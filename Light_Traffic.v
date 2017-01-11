@@ -65,6 +65,10 @@ module A_Green_Counter(Rst,En,Clk,A_Light, B_Light,A_Time_L,A_Time_H,B_Time_L,B_
     input Rst,En,Clk;
     output A_Light, B_Light,A_Time_L[3:0],A_Time_H[3:0],B_Time_L[3:0],B_Time_H[3:0];
 
+    if(En)begin
+        
+    end
+
 endmodule 
 
 module B_Green_Counter(Rst,En,Clk,A_Light, B_Light,A_Time_L,A_Time_H,B_Time_L,B_Time_H);
